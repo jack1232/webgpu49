@@ -123,11 +123,12 @@ const Create3DObject = async (isAnimation = true) => {
         depthStencilAttachment: {
             view: depthTexture.createView(),
             depthClearValue: 1.0,
+            depthLoadOp: 'clear',
             depthStoreOp: "store",
-            stencilClearValue: 0,
+            /*stencilClearValue: 0,
             stencilStoreOp: "store",
             depthLoadOp: 'clear',
-            stencilLoadOp: 'clear'
+            stencilLoadOp: 'clear'*/
         }
     };
     
