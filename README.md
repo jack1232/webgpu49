@@ -1,5 +1,5 @@
 # Step-by-Step WebGPU Graphics Programming (49) 
-## Cube with Distinct Vertex Color
+## Two Cubes in a Single Scene
 
 This is the source code for the 49th part of a series YouTube videos on step-by-step WebGPU graphics programming.
 
